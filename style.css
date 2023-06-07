@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+body {
+    background: url('assets/cloud-bg.jpg') no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*Display Box (Bigger Box)*/
+.display-box {
+    top: 50%;
+    left: 50%;
+    width: 24rem;
+    height: 24rem;
+    padding: 3rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(0.5rem);
+    border-radius: 1.5rem;
+    text-align: center;
+}
+
+/*Search Box (Search bar and Button)*/
+.search-box {
+    border-radius: 1.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: rgb(255, 255, 255, 0.5);
+    width: 21rem;
+    border-radius: 2.5rem;
+}
+
+.search-box input {
+    background-color: transparent;
+    padding: 0.5rem;
+    height: 2rem;
+    width: 15rem;
+    border: 0rem;
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+}
+
+.search-box button {
+    border: 0rem;
+    border-radius: 50%;
+    padding: 0.4rem;
+    margin: 0 auto;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.search-box img {
+    width: 1.3rem;
+    height: 1.3rem;
+    opacity: 0.5;
+}
+
+/*Details information*/
+.city-info {
+    position: relative;
+    padding: 1rem;
+    font-size: 1.1rem;
+    
+}
+.city-info div{
+    align-items: center;
+}
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+.temperature{
+    font-size: 2.2rem;
+}

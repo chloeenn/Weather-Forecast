@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+</head>
+
+<body>
+    <section class="display-box">
+        <!--Search Box-->
+        <form class="search-box" action="">
+            <input type="text" placeholder="Search for location" id="search-input"/>
+            <a class="search-icon" onclick="getAPICityName()"><img src="assets/search-icon.png" ></a>
+        </form>
+        <!--Information-->
+        <div class="city-info">
+            <div class="city-name"></div>
+            <div class="weather-icon">
+                <img src="assets/weather-unknown.png" id="weather-img"/>
+            </div>
+            <div class="weather-cond"></div>
+            
+            <div class="temperature"></div>
+            <div class="humidity"></div>
+            <div class="wind-speed"></div>
+        </div>
+    </section>
+    <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
